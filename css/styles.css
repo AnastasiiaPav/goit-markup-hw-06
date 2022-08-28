@@ -434,6 +434,8 @@ background: rgba(47, 48, 58, 0.8)
       margin-top: 30px;
       padding-right: 32px;
       padding-left: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
 
       font-family: inherit;
       color:  var(--main-background);
