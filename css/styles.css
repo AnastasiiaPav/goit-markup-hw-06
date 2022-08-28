@@ -930,21 +930,17 @@ color: var(--accent-color);
    pointer-events: none;
    }
  
-.svg-modal{
-   width: 30px;
-   height: 30px;
-   fill: #000000;
-   position: absolute;
-   border-radius: 50%;
-   border: 1px solid rgba(0, 0, 0, 0.1);
-  right: 0;
-  bottom: 0;
-  top: 0;
-
-  cursor: pointer;
-  pointer-events: fill;
-  
-}
+ .svg-modal{
+      fill: #000000;
+      
+      border-radius: 50%;
+      /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    
+     top: 0;
+     cursor: pointer;
+     pointer-events: fill;
+    
+   }
 
 .svg-modal:focus,
 .svg-modal:hover{
@@ -957,15 +953,19 @@ color: var(--accent-color);
    width:30px;
    height: 30px ;
    position: absolute;
+   border: 1px solid rgba(0, 0, 0, 0.1);
    right: 8px;
-   top:8px;
+   top: 8px;
    opacity: 1;
 pointer-events: fill;
 background-color: var(--main-background);
-border: 0;
 border-radius: 50%;
-}
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
 
+}
 
 
 
