@@ -1204,7 +1204,9 @@ text-decoration: underline;
 cursor: pointer;
 }
 
-
+.proverka{
+   
+}
 
 
 .subscr-span{
@@ -1214,7 +1216,10 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-top: -70%;
+max-width: 207px;
+width: 100%;
+display: inline;
+/* top: -70%; */
 }
 
 .subscription-input{
@@ -1244,7 +1249,8 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .subscription-tg{
-   margin-top: 37px;
+   /* margin-top: 37px; */
+   margin-left: 12px;
    width: 200px;
    height: 50px;
    font-weight: 700;
@@ -1311,4 +1317,9 @@ letter-spacing: 0.01em;
 
 span{
    display: inline-block;
+}
+
+.navi-form{
+   display: flex;
+   align-items: flex-end;
 }
